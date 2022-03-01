@@ -1,0 +1,20 @@
+{
+  "name": "wifi-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "node-wifi": "^2.0.16",
+    "nodemon": "^2.0.15",
+    "wifi-control": "^2.0.1",
+    "wifiscanner": "^1.0.1"
+  }
+}
