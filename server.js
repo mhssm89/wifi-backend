@@ -38,6 +38,12 @@ app.get("/scan", (req, res) => {
   );
 });
 
+app.post("/connect", (req, res) => {
+  console.log(req.body);
+  var data = req.body;
+  res.send(data);
+});
+
 app.get("/scanner", (req, res) => {
   var scanner = wifiscanner();
   scanner.scan(function (error, networks) {
